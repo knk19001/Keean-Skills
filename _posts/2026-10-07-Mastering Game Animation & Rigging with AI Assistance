@@ -1,0 +1,53 @@
+---
+layout: default
+title: Mastering Game Animation & Rigging with AI Assistance
+date: 2026-10-07
+---
+# Claude Artifact showing the rig https://claude.ai/artifact/PNAeVkcMU1bcZ11DirXcuJ
+# Mastering Game Animation & Rigging with AI Assistance
+
+Transitioning from writing code to building 3D character assets requires adopting a completely different set of mental models.
+
+To bridge this gap, I used AI tools as an interactive 3D pipeline mentor, helping me learn Blender rigging workflows, troubleshoot mesh deformations, and automate technical setup scripts for game engine integration. Here is an overview of the technical skills and core concepts I mastered along the way.
+
+---
+
+## 1. Armature Foundations & Bone Hierarchy
+Before a character can move in-game, it needs a clean skeletal armature structured with proper parent-child relationships and rotation axes.
+
+* **Skeletal Hierarchy & Local Rotations:** Learned how bone orientations (roll, pitch, yaw) and local axes impact transformations, ensuring character joints rotate cleanly without twisting.
+* **Control vs. Deform Bones:** Implemented split bone architectures where non-deforming control bones drive the underlying deformation rig, keeping runtime assets clean for export to game engines like Roblox and Unity.
+* **AI-Assisted Rig Design:** Leveraged AI to generate Python scripts (`bpy` module) in Blender to automatically generate skeletal structures, align joint pivots, and enforce standard bone naming conventions across models.
+
+---
+
+## 2. Inverse Kinematics (IK) & Forward Kinematics (FK)
+Animating limb movement efficiently requires balancing Forward Kinematics for smooth rotational arcs with Inverse Kinematics for precise target tracking.
+
+* **IK/FK Constraints & Pole Targets:** Configured IK chains for legs and arms with knee/elbow pole targets to prevent unnatural joint flipping during movement cycles.
+* **IK/FK Switching:** Learned how to set up driver-based IK/FK switching, allowing keyframes to seamlessly blend between directional limb placement (IK) and organic sweeping gestures (FK).
+* **AI Troubleshooting:** Used AI to debug joint constraint conflicts, bone stretching artifacts, and improper bone chain length settings.
+
+---
+
+## 3. Weight Painting & Mesh Deformation
+A rig is only as good as its skinning weights. Ensuring clean mesh deformation during extreme joint bends requires detailed weight distribution.
+
+* **Vertex Groups & Weight Normalization:** Mastered weight painting techniques using smooth gradients and automatic normalization to eliminate unintended vertex stretching.
+* **Corrective Shape Keys & Drivers:** Implemented corrective blend shapes driven by bone rotation angles to maintain volume in tricky areas like shoulders, hips, and elbows during acute bends.
+* **AI Guidance for Mesh Topology:** Used AI to analyze mesh wireframes and topology flow, ensuring geometry had adequate edge loops at articulation points to support clean deformation without pinching.
+
+---
+
+## 4. Game-Ready Animation Cycles & Engine Export
+Creating functional game animations goes beyond static poses; it requires loops, root motion, and proper state transitions.
+
+* **Core Animation Cycles:** Authored essential locomotion sets including walk cycles, run loops, idle stances, and jump state transitions.
+* **Root Motion vs. In-Place Locomotion:** Configured root bone animation pipelines for physics-driven movement versus locked in-place loops designed for engine code replication.
+* **FBX/GLTF Pipeline Optimization:** Set up standardized export routines to bake animations, clean keyframe density, and preserve target bone hierarchies during engine import.
+
+---
+
+## Key Takeaways
+
+Using AI during the 3D art and animation pipeline turned a daunting learning curve into a structured, step-by-step process. Rather than replacing the artistic iteration required for natural movement, AI acted as a technical guide—explaining constraint math, scripting repetitive Blender tasks, and helping me establish a production-ready rigging pipeline for game development.
