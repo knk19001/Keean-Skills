@@ -1,8 +1,3 @@
----
-layout: default
-title: Welcome to My Academic & Professional Portfolio
----
-
 # Welcome!
 
 Hi, I'm currently a Mathematics student at the University of Connecticut. My academic work centers on pure and applied mathematics with a minor in physics that have aided with personal projects spanning computational modeling, software scripts, and technical hardware customization.
