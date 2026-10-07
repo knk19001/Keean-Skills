@@ -1,9 +1,6 @@
----
-layout: default
-title: Mastering Game Animation & Rigging with AI Assistance
-date: 2026-10-07
----
-# Claude Artifact showing the rig https://claude.ai/artifact/PNAeVkcMU1bcZ11DirXcuJ
+## Mastering Game Animation & Rigging with AI Assistance
+# Claude Artifact showing the rig 
+https://claude.ai/artifact/PNAeVkcMU1bcZ11DirXcuJ
 # Mastering Game Animation & Rigging with AI Assistance
 
 Transitioning from writing code to building 3D character assets requires adopting a completely different set of mental models.
