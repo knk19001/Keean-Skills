@@ -20,8 +20,6 @@ Hi, I'm currently a Mathematics student at the University of Connecticut. My aca
 
 Check out my recent posts to see what I'm working on:
 
-1. [My Journey in Mathematics & Computation](./post-1.md) — Throughout my entire academic career, I've dipped my toes in many different subjects
-2. [Building and Optimizing Performance Workstations](./post-2.md) — A breakdown of hardware configuration, BIOS setups, and systems build strategy.
 
 ---
 
